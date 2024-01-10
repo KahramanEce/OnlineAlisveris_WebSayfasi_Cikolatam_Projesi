@@ -1,0 +1,184 @@
+<!--Çikolatam.com . HTML ve CSS kullanarak oluşturulmuştur.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Çikolatam</title>
+
+    <style>
+      #banner {
+        height: 400px;
+        background-image: url("imgcss/l-intro-1646002781.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      #black {
+        height: 400px;
+        background-color: black;
+        opacity: 0.5;
+      }
+      #icerik {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 30px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+      }
+      #üst {
+        background-color: rgb(196, 125, 125);
+        margin: 0;
+        padding: 0%;
+        border: 0cap;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        font-size: 12px;
+      }
+      #ad {
+        background-color: burlywood;
+        text-align: center;
+        font-size: large;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: indigo;
+        margin: 0px 0px;
+        border-style: dotted;
+      }
+      #sayfalar {
+        background-color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 12px;
+        text-align: center;
+        opacity: 0.9;
+        margin: 0%;
+        color: white;
+      }
+      ul {
+        overflow: hidden;
+      }
+      ul li {
+        float: left;
+        margin-right: 45px;
+        margin-left: 120px;
+      }
+      ul li img {
+        border: 2px solid #000;
+      }
+      .clear {
+        clear: both;
+      }
+      #kesfet {
+        text-align: center;
+      }
+      footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      footer h4 {
+        font-size: 2rem;
+      }
+      footer p {
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="üst">
+      <h3>500 TL VE ÜZERİ TÜM SİPARİŞLERDE ÜCRETSİZ KARGO!</h3>
+    </section>
+
+    <section id="ad">
+      <h1>Çikolatam</h1>
+      <h4>Türkiye 2023</h4>
+    </section>
+
+    <section id="sayfalar">
+      <h3><a href="ürünlerimiz.html">ÜRÜNLERİMİZ</a></h3>
+      <h3><a href="cikolatamıkesfedın.html">ÇİKOLATAM'I KEŞFEDİN</a></h3>
+      <h3><a href="magazalar.html">MAĞAZALAR</a></h3>
+    </section>
+
+    <!--banner-->
+    <section id="banner">
+      <div id="black"></div>
+      <div id="icerik">
+        <h1>Çikolatam ile enfes tatlar sizinle...</h1>
+        <hr width="800" align="left" />
+      </div>
+    </section>
+    <!--/banner-->
+    <hr />
+    <section id="kesfet">
+      <h2>KEŞFET</h2>
+      <ul style="list-style-type: none">
+        <li>
+          <a href="ürünlerimiz.html">
+            <img
+              src="imgcss/80752819.webp"
+              alt="Çikolatam Hediye Kutusu"
+              title="Çikolatam Hediye Kutusu"
+              width="500px"
+              height="370px"
+          /></a>
+          <dd>
+            <b
+              ><i
+                >Çikolatam Hediye Kutusu özel günleriniz için hazırlanmıştır</i
+              ></b
+            >
+          </dd>
+        </li>
+
+        <li>
+          <a href="ürünlerimiz.html">
+            <img
+              src="imgcss/dark-chocolate-bark-roasted-almonds-and-seeds-hero-01-FT-RECIPE1222-53401fe9698f439bbbe17cefac9bef95.jpg"
+              alt="Çikolatam Fındık Fıstık Çeşitleri"
+              title="Çikolatam Fındık Fıstık Çeşitleri"
+              width="500px"
+              height="370px"
+          /></a>
+          <dd>
+            <b
+              ><i
+                >Çikolatam Fındık Fıstık Çeşitlerini sayfamızdan veya
+                mağazalarımızdan alabilirsiniz
+              </i></b
+            >
+          </dd>
+        </li>
+        <li class="clear"></li>
+      </ul>
+    </section>
+    <hr />
+    <!--footer-->
+    <footer>
+      <div class="container clearfix">
+        <div class="col">
+          <h4 class="text-uppercase">LOCATION</h4>
+          <p>İstanbul/Türkiye Nişantaşı Teşvikiye, Şişli</p>
+        </div>
+        <div class="col">
+          <h4 class="text-uppercase">AROUND THE WEB</h4>
+          <p>Instagram: Cikolatam</p>
+          <p>Çikolatam.com</p>
+        </div>
+        <div class="col">
+          <h4 class="text-uppercase">ABOUT</h4>
+          <p>
+            Çikolatam, Türkiye'nin en sevilen lezzetli çikolatalarını sizlerle
+            buluşturmaktan mutluluk duyar...
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--/footer-->
+  </body>
+</html>
